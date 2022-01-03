@@ -1,0 +1,13 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::my_first_cscart_module"
+msgid "My first cscart module"
+msgstr "_My first cscart module"
+
+msgctxt "Addons::description::my_first_cscart_module"
+msgid "Description for my first cscart module"
+msgstr "Description for my first cscart module"

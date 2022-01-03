@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::my_first_cscart_module"
+msgid "My first cscart module"
+msgstr "_Мой первый модуль cscart"
+
+msgctxt "Addons::description::my_first_cscart_module"
+msgid "Description for my first cscart module"
+msgstr "Описание моего первого модуля cscart"
+
