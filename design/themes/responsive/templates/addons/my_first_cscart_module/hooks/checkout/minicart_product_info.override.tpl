@@ -1,6 +1,6 @@
 {if $block.properties.products_links_type == "thumb"}
     <div class="ty-cart-items__list-item-image">
-        {include file="common/image.tpl" image_width="80" image_height="80" images=$product.main_pair no_ids=true}
+        {include file="common/image.tpl" image_width="40" image_height="40" images=$product.main_pair no_ids=true}
     </div>
 {/if}
 <div class="ty-cart-items__list-item-desc">

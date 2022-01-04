@@ -112,7 +112,7 @@ if ($mode == 'catalog') {
         }
 
         list($products, $search) = fn_get_products($params, Registry::get('settings.Appearance.products_per_page'), CART_LANGUAGE);
-
+//        fn_print_r($products);
         if (isset($search['page']) && ($search['page'] > 1) && empty($products)) {
             return array(CONTROLLER_STATUS_NO_PAGE);
         }

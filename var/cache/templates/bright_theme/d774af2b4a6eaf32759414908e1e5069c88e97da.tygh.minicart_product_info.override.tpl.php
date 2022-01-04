@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-01-03 14:42:45
+<?php /* Smarty version Smarty-3.1.21, created on 2022-01-04 09:27:37
          compiled from "C:\OpenServer\domains\cscart\design\themes\responsive\templates\addons\my_first_cscart_module\hooks\checkout\minicart_product_info.override.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:80078675061d2e02e8db7d3-70089040%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd774af2b4a6eaf32759414908e1e5069c88e97da' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\themes\\responsive\\templates\\addons\\my_first_cscart_module\\hooks\\checkout\\minicart_product_info.override.tpl',
-      1 => 1641210160,
+      1 => 1641277654,
       2 => 'tygh',
     ),
   ),
@@ -35,7 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start();
 if ($_smarty_tpl->tpl_vars['block']->value['properties']['products_links_type']=="thumb") {?>
     <div class="ty-cart-items__list-item-image">
-        <?php echo $_smarty_tpl->getSubTemplate ("common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('image_width'=>"80",'image_height'=>"80",'images'=>$_smarty_tpl->tpl_vars['product']->value['main_pair'],'no_ids'=>true), 0);?>
+        <?php echo $_smarty_tpl->getSubTemplate ("common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('image_width'=>"40",'image_height'=>"40",'images'=>$_smarty_tpl->tpl_vars['product']->value['main_pair'],'no_ids'=>true), 0);?>
 
     </div>
 <?php }?>
@@ -73,7 +73,7 @@ echo Smarty::$_smarty_vars['capture']['template_content'];
 } else {
 if ($_smarty_tpl->tpl_vars['block']->value['properties']['products_links_type']=="thumb") {?>
     <div class="ty-cart-items__list-item-image">
-        <?php echo $_smarty_tpl->getSubTemplate ("common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('image_width'=>"80",'image_height'=>"80",'images'=>$_smarty_tpl->tpl_vars['product']->value['main_pair'],'no_ids'=>true), 0);?>
+        <?php echo $_smarty_tpl->getSubTemplate ("common/image.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('image_width'=>"40",'image_height'=>"40",'images'=>$_smarty_tpl->tpl_vars['product']->value['main_pair'],'no_ids'=>true), 0);?>
 
     </div>
 <?php }?>
