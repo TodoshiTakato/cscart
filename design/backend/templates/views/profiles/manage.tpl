@@ -24,6 +24,7 @@
 {/hook}
 
 {if $users}
+
 <div class="table-responsive-wrapper longtap-selection">
     <table width="100%" class="table table-middle table--relative table-responsive">
     <thead data-ca-bulkedit-default-object="true" data-ca-bulkedit-component="defaultObject">

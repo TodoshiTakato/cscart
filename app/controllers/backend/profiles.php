@@ -237,6 +237,9 @@ if ($mode === 'manage') {
 
     list($users, $search) = fn_get_users($_REQUEST, $auth, Registry::get('settings.Appearance.admin_elements_per_page'));
 
+//    fn_print_r($_REQUEST);
+//    fn_print_r($users);
+
     $user_ids = array_column($users, 'user_id');
     $orders_statistics = fn_get_user_order_statistics($user_ids);
 

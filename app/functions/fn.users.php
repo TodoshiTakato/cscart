@@ -1713,6 +1713,7 @@ function fn_get_users($params, &$auth, $items_per_page = 0, $custom_view = '')
     }
 
     $users = db_get_array('SELECT ' . implode(', ', $fields) . ' FROM ?:users ?p WHERE 1' . implode('', $condition) . ' ?p ?p ?p', $join, $group, $sorting, $limit);
+//    fn_print_r($users);
 
     LastView::instance()->processResults('users', $users, $params);
 
