@@ -758,6 +758,7 @@ if ($mode == 'add') {
         || !fn_get_runtime_company_id()
         || YesNo::toBool(Registry::get('settings.Vendors.allow_vendor_manage_features'));
 
+//    fn_print_r($product_data);
     Tygh::$app['view']->assign([
         'product_features'   => $product_features,
         'features_search'    => $features_search,

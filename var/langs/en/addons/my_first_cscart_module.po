@@ -11,3 +11,7 @@ msgstr "_My first cscart module"
 msgctxt "Addons::description::my_first_cscart_module"
 msgid "Description for my first cscart module"
 msgstr "Description for my first cscart module"
+
+msgctxt "Languages::my_first_cscart_module_setting"
+msgid "my_first_cscart_module_setting"
+msgstr "Description for my_first_cscart_module_setting"

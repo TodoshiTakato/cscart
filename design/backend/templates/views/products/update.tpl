@@ -247,8 +247,8 @@
                         <label class="control-label" for="elm_product_code">{__("sku")}:</label>
                         <div class="controls">
                             <input type="text" name="product_data[product_code]" id="elm_product_code" size="20" maxlength={"ProductFieldsLength::PRODUCT_CODE"|enum}  value="{$product_data.product_code}" class="input-large" />
-                            </div>
                         </div>
+                    </div>
                     {/hook}
 
                     {hook name="products:update_product_list_price"}

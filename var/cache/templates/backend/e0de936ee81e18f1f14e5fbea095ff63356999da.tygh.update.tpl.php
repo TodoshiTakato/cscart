@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-01-10 09:13:01
+<?php /* Smarty version Smarty-3.1.21, created on 2022-01-10 14:43:46
          compiled from "C:\OpenServer\domains\cscart\design\backend\templates\views\products\update.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:77967201261dbce6da838e1-23583568%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e0de936ee81e18f1f14e5fbea095ff63356999da' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\backend\\templates\\views\\products\\update.tpl',
-      1 => 1616559142,
+      1 => 1641814944,
       2 => 'tygh',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21',
+  'unifunc' => 'content_61dbce6dbc6412_19664906',
   'variables' => 
   array (
     'language_direction' => 0,
@@ -49,8 +51,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'title' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_61dbce6dbc6412_19664906',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_61dbce6dbc6412_19664906')) {function content_61dbce6dbc6412_19664906($_smarty_tpl) {?><?php if (!is_callable('smarty_function_script')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\function.script.php';
 if (!is_callable('smarty_block_hook')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\block.hook.php';
@@ -332,8 +332,8 @@ if (!empty($_capture_buffer)) {
                             <input type="text" name="product_data[product_code]" id="elm_product_code" size="20" maxlength=<?php echo htmlspecialchars(smarty_modifier_enum("ProductFieldsLength::PRODUCT_CODE"), ENT_QUOTES, 'UTF-8');?>
   value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['product_data']->value['product_code'], ENT_QUOTES, 'UTF-8');?>
 " class="input-large" />
-                            </div>
                         </div>
+                    </div>
                     <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_block_hook(array('name'=>"products:update_product_code"), $_block_content, $_smarty_tpl, $_block_repeat);  } array_pop($_smarty_tpl->smarty->_tag_stack);?>
 
 

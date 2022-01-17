@@ -162,7 +162,7 @@ if ($mode == 'search') {
     fn_gather_additional_product_data($product, true, true);
     Tygh::$app['view']->assign('product', $product);
 
-    // If page title for this product is exist than assign it to template
+    // If page title for this product is exist then assign it to template
     if (!empty($product['page_title'])) {
         Tygh::$app['view']->assign('page_title', $product['page_title']);
     }

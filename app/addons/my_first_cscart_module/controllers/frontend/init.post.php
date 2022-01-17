@@ -23,12 +23,20 @@ if (empty($result)) {
     //$ip = fn_get_ip();
     //$ip = $ip["host"];
     //$ip = $auth["ip"];
-    $ip = "87.76.12.115";
+    //$ip = "87.76.12.115";
+    $ip = "87.237.236.120"; //Tashkent
 
     //$url = "http://ipgeobase.ru:7020/geo";
-    $url = "https://www.reg.ru/misc/geoip_lookup";
+    //$url = "https://www.reg.ru/misc/geoip_lookup";
+    //$url = "https://whatismyipaddress.com/ip/";
+    //$url = "https://geo.ipify.org/api/web";
+    $url = "http://ip-api.com/json/?lang=ru".$ip;
+
     $param = array(
-        "ip_address_or_host" => $ip,
+        //"ip_address_or_host" => $ip,
+        //"" => $ip
+        //"search" => $ip
+        "lang" => "ru"
     );
     $extra =array(
         "timeout" => 3,
@@ -37,17 +45,15 @@ if (empty($result)) {
     $result = Http::get($url, $param, $extra);
     //$result = (array) @simplexml_load_string($result);
     //$result = (array) $result["ip"];
-
     //$result = iconv("windows-1251", "utf-8", $result);
-
+    //fn_print_r($result);
     fn_set_session_data("my_geo_location", $result);
-    //fn_print_r(1);
 }
 $result = json_decode($result);
-if (!empty($result->city->ru)) {
-    Tygh::$app['view']->assign('city', $result->city->ru);
+if (!empty($result->city)) {
+    Tygh::$app['view']->assign('city', $result->city);
 }
 
-//fn_delete_session_data("my_geo_location");
+fn_delete_session_data("my_geo_location");
 //fn_print_r($result);
 //fn_print_r($cart["user_data"]);
