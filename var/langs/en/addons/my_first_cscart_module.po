@@ -15,3 +15,11 @@ msgstr "Description for my first cscart module"
 msgctxt "Languages::my_first_cscart_module_setting"
 msgid "my_first_cscart_module_setting"
 msgstr "Description for my_first_cscart_module_setting"
+
+msgctxt "Languages::block_my_first_cscart_module_setting"
+msgid "block_my_first_cscart_module_setting"
+msgstr "Description for block_my_first_cscart_module_setting"
+
+msgctxt "Languages::block_my_first_cscart_module_setting_description"
+msgid "block_my_first_cscart_module_setting_description"
+msgstr "Description for block_my_first_cscart_module_setting_description"

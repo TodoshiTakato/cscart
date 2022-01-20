@@ -16,3 +16,11 @@ msgstr "Описание моего первого модуля cscart"
 msgctxt "Languages::my_first_cscart_module_setting"
 msgid "my_first_cscart_module_setting"
 msgstr "Описание для my_first_cscart_module_setting"
+
+msgctxt "Languages::block_my_first_cscart_module_setting"
+msgid "block_my_first_cscart_module_setting"
+msgstr "Описание для block_my_first_cscart_module_setting"
+
+msgctxt "Languages::block_my_first_cscart_module_setting_description"
+msgid "block_my_first_cscart_module_setting_description"
+msgstr "Описание для block_my_first_cscart_module_setting_description"

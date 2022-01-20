@@ -12,8 +12,10 @@
 * "copyright.txt" FILE PROVIDED WITH THIS DISTRIBUTION PACKAGE.            *
 ****************************************************************************/
 
-if (!defined('BOOTSTRAP')) { die('Access denied'); }
+if (!defined("BOOTSTRAP")) { die("Access denied"); }
 
 fn_register_hooks(
-    'get_users'
+    "get_users",
+    "get_products"
+//    "global_update_products"
 );

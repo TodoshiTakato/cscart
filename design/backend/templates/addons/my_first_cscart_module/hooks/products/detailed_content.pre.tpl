@@ -1,5 +1,5 @@
 <h4 class="subheader hand" data-toggle="collapse" data-target="#my_first_cscart_module_setting">
-    my_first_cscart_module_settings
+    my_first_cscart_module_setting
     <span class="icon-caret-down"></span>
 </h4>
 
@@ -12,9 +12,9 @@
                        name="product_data[my_first_cscart_module_setting]"
                        id="my_first_cscart_module_setting"
                        size="20"
-                       maxlength={"ProductFieldsLength::my_first_cscart_module_setting"|enum}
                        value="{$product_data.my_first_cscart_module_setting}"
-                       class="input-large">
+                       class="input-large"
+                >
             </div>
         </div>
     </fieldset>

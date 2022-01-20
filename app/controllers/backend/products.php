@@ -610,6 +610,7 @@ if ($mode == 'manage' || $mode == 'p_subscr') {
 
     list($products, $search) = fn_get_products($params, Registry::get('settings.Appearance.admin_elements_per_page'), DESCR_SL);
     fn_gather_additional_products_data($products, array('get_icon' => true, 'get_detailed' => true, 'get_options' => false, 'get_discounts' => false));
+//    fn_print_r($products);
 
     $page = $search['page'];
     $valid_page = db_get_valid_page($page, $search['items_per_page'], $search['total_items']);
@@ -758,7 +759,7 @@ if ($mode == 'add') {
         || !fn_get_runtime_company_id()
         || YesNo::toBool(Registry::get('settings.Vendors.allow_vendor_manage_features'));
 
-//    fn_print_r($product_data);
+//    fn_print_r($product_data["my_first_cscart_module_setting"]);
     Tygh::$app['view']->assign([
         'product_features'   => $product_features,
         'features_search'    => $features_search,

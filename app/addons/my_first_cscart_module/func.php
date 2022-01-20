@@ -28,3 +28,13 @@ function fn_my_first_cscart_module_get_users($params, &$fields, &$sortings, $con
 
     //    fn_print_r($sortings);
 }
+
+function fn_my_first_cscart_module_get_products($params, &$fields, &$sortings, $condition, $join, $sorting, $group_by, $lang_code, $having) {
+    $fields["my_first_cscart_module_setting"] = "products.my_first_cscart_module_setting";
+    $sortings["my_first_cscart_module_setting"] = "products.my_first_cscart_module_setting";
+//    fn_print_r($sortings);
+}
+
+//function fn_my_first_cscart_module_global_update_products($table, $field, $value, $type, $msg, $update_data) {
+//    fn_print_r("gdrgdrgggggggggggggggd");
+//}

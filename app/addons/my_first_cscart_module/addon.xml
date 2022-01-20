@@ -7,4 +7,15 @@
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
     <default_language>en</default_language>
     <status>active</status>
+
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:products`
+                ADD COLUMN `my_first_cscart_module_setting` VARCHAR(255) NOT NULL DEFAULT 'default'
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+                DROP COLUMN `my_first_cscart_module_setting`
+        </item>
+    </queries>
 </addon>

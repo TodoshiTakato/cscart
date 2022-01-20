@@ -1,0 +1,1 @@
+{style src="addons/my_first_cscart_module/styles.less"}

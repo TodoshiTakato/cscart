@@ -2097,6 +2097,7 @@ function fn_get_products($params, $items_per_page = 0, $lang_code = CART_LANGUAG
      * @param array  $having    HAVING condition
      */
     fn_set_hook('get_products', $params, $fields, $sortings, $condition, $join, $sorting, $group_by, $lang_code, $having);
+//    fn_print_r($fields);
 
     // -- SORTINGS --
     if ($params['sort_by'] == 'popularity' && !in_array('popularity', $params['extend'])) {
