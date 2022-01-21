@@ -2368,6 +2368,21 @@ function fn_get_order_info($order_id, $native_language = false, $format_info = t
 
         fn_set_hook('get_order_info', $order, $additional_data);
 
+//        fn_print_r($order);
+//        fn_print_r($order['products'][1061624811]);
+
+//        fn_print_r($order["product_groups"][0]['products'][1061624811]["main_pair"]["detailed"]["image_path"]);
+//        fn_print_r($order["product_groups"][0]['products'][1061624811]["main_pair"]["detailed"]["http_image_path"]);
+//        fn_print_r($order["product_groups"][0]['products'][1061624811]["main_pair"]["detailed"]["absolute_path"]);
+//        fn_print_r($order["product_groups"][0]['products'][1061624811]["main_pair"]["detailed"]["relative_path"]);
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["image_path"]); //Отсутствует
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["http_image_path"]); //Отсутствует
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["absolute_path"]); //Отсутствует
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["relative_path"]); //Отсутствует
+
+//        fn_print_r($order["product_groups"][0]['products'][1061624811]["main_pair"]["detailed"]["https_image_path"]);
+//        fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["https_image_path"]); //Отсутствует
+
         return $order;
     }
 
@@ -8558,9 +8573,17 @@ function fn_print_order_invoices($order_ids, $params = array())
     }
 
     foreach ($order_ids as $order_id) {
+//        fn_print_r(Registry::get('settings.Appearance.email_templates'));
         if (Registry::get('settings.Appearance.email_templates') == 'old') {
             $order_info = fn_get_order_info($order_id, false, true, false, false, $params['lang_code']);
-
+//            fn_print_r($order_info);
+//            fn_print_r($order_info["product_groups"][0]["products"][1061624811]["main_pair"]["detailed"]);
+//            fn_print_r($order_info['products'][1061624811]);
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["image_path"]); //Отсутствует
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["http_image_path"]); //Отсутствует
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["https_image_path"]); //Отсутствует
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["absolute_path"]); //Отсутствует
+//            fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["relative_path"]); //Отсутствует
             if (empty($order_info)) {
                 continue;
             }
@@ -8571,7 +8594,6 @@ function fn_print_order_invoices($order_ids, $params = array())
 
             list($shipments) = fn_get_shipments_info(array('order_id' => $order_info['order_id'], 'advanced_info' => true));
             $use_shipments = !fn_one_full_shipped($shipments);
-
             $data['order_info'] = $order_info;
             $data['shipments'] = $shipments;
             $data['use_shipments'] = $use_shipments;
@@ -8605,7 +8627,7 @@ function fn_print_order_invoices($order_ids, $params = array())
             foreach ($data as $key => $value) {
                 $view->assign($key, $value);
             }
-
+//            fn_print_r($params);
             $template = $params['html_wrap'] ? 'orders/print_invoice.tpl' : 'orders/invoice.tpl';
             $html[] = $view->displayMail(
                 $template, false, $params['area'], $order_info['company_id'], $params['lang_code']
@@ -8614,8 +8636,9 @@ function fn_print_order_invoices($order_ids, $params = array())
             /** @var \Tygh\Template\Document\Order\Type $document_type */
             $document_type = Tygh::$app['template.document.order.type'];
             $template_code = isset($params['template_code']) ? $params['template_code'] : 'invoice';
+//            fn_print_r($params['template_code']);
             $template = $document_type->renderById($order_id, $template_code, $params['lang_code'], $params['secondary_currency'], $params['area']);
-
+//            fn_print_r($params);
             if ($params['html_wrap']) {
                 /** @var \Tygh\SmartyEngine\Core $view */
                 $view = Tygh::$app['view'];

@@ -130,6 +130,7 @@ class Type implements IType, IPreviewableType, IIncludableType
      */
     public function renderById($order_id, $code, $lang_code, $currency_code = '', $area = AREA)
     {
+//        fn_print_r($code);
         $order = new Order($order_id, $lang_code, $currency_code);
         $document = $this->repository->findByTypeAndCode($this->getCode(), $code);
 

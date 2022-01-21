@@ -242,11 +242,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 $params = $_REQUEST;
 
 if ($mode == 'print_invoice') {
+//    fn_print_r($_REQUEST);
     if (!empty($_REQUEST['order_id'])) {
         echo(fn_print_order_invoices($_REQUEST['order_id'], array(
             'pdf' => !empty($_REQUEST['format']) && $_REQUEST['format'] == 'pdf')
         ));
     }
+
     exit;
 
 } elseif ($mode == 'print_packing_slip') {
@@ -261,7 +263,7 @@ if ($mode == 'print_invoice') {
 
     $order_info = fn_get_order_info($_REQUEST['order_id'], false, true, true, false);
     fn_check_first_order($order_info);
-
+//    fn_print_r($order_info);
     if (empty($order_info)) {
         return array(CONTROLLER_STATUS_NO_PAGE);
     }
@@ -307,6 +309,11 @@ if ($mode == 'print_invoice') {
             $v['product_id'], $order_info['products'][$k]
         );
     }
+//    fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["image_path"]);
+//    fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["http_image_path"]);
+//    fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["https_image_path"]);
+//    fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["absolute_path"]);
+//    fn_print_r($order_info['products'][1061624811]["main_pair"]["detailed"]["relative_path"]);
 
     if ($downloads_exist) {
         Registry::set('navigation.tabs.downloads', array (

@@ -10,7 +10,7 @@
 {elseif $status_settings.appearance_type == "O"}
     {assign var="order_header" value=__("order_details")}
 {/if}
-
+{*<strong style="border: solid red">NURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLAN</strong>*}
 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="main-table" style="direction: {$language_direction}; height: 100%; background-color: #f4f6f8; font-size: 12px; font-family: Arial;">
 <tr>
     <td align="center" style="width: 100%; height: 100%;">
@@ -22,7 +22,6 @@
                 <td align="left" style="padding-bottom: 3px;" valign="middle"><img src="{$logos.mail.image.image_path}" width="{$logos.mail.image.image_x}" height="{$logos.mail.image.image_y}" border="0" alt="{$logos.mail.image.alt}" /></td>
                 <td width="100%" >&nbsp;</td>
                 <td valign="bottom" style="text-align: right;  font: bold 26px Arial; text-transform: uppercase;  margin: 0px;">{$order_header|default:__("invoice_title")}</td>
-
             </tr>
             </table>
 
@@ -244,7 +243,7 @@
             {hook name="orders:ordered_products"}
             {/hook}
             {* /Ordered products *}
-        
+
             {* Order totals *}
             <table cellpadding="0" cellspacing="0" border="0" width="100%" style="direction: {$language_direction};">
             <tr>

@@ -78,7 +78,7 @@ class Repository
     {
         $code = trim($code);
         $results = $this->find(array('type' => $type, 'code' => $code));
-
+//        fn_print_r($results);
         return reset($results);
     }
 

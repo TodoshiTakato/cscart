@@ -57,7 +57,7 @@ class Renderer
     public function renderTemplate(ITemplate $template, IContext $context, Collection $variable_collection)
     {
         $variables = $variable_collection->getAll();
-        $variables[self::TEMPLATE_VARIABLE_KEY] = $template;
+        $variables[self::TEMPLATE_VARIABLE_KEY] = $template; fn_print_r($template);
         $variables[self::CONTEXT_VARIABLE_KEY] = $context;
         $variables[self::VARIABLE_COLLECTION_VARIABLE_KEY] = $variable_collection;
         $variables[self::LANGUAGE_VARIABLE_KEY] = $context->getLangCode();

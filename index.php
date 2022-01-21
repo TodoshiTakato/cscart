@@ -12,12 +12,12 @@
 * "copyright.txt" FILE PROVIDED WITH THIS DISTRIBUTION PACKAGE.            *
 ****************************************************************************/
 
+
 $php_value = phpversion();
 if (version_compare($php_value, '5.6.0') == -1) {
     echo 'Currently installed PHP version (' . $php_value . ') is not supported. Minimal required PHP version is 5.6.0.';
     die();
 }
-
 define('AREA', 'C');
 
 try {

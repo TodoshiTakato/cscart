@@ -28,6 +28,7 @@
 <input type="hidden" name="order_status" value="{$order_info.status}" />
 <input type="hidden" name="result_ids" value="content_general" />
 <input type="hidden" name="selected_section" value="{$selected_section}" />
+{*    <strong style="border: solid red">NURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLANNURLAN</strong>*}
 
 <div class="{if $selected_section !== "general"}hidden{/if}" id="content_general">
     <div class="row-fluid">

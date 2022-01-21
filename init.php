@@ -17,6 +17,9 @@ use Tygh\Debugger;
 use Tygh\Helpdesk;
 use Tygh\Registry;
 
+//Test time of process
+//$rustart = getrusage();
+
 // Register autoloader
 $this_dir = dirname(__FILE__);
 $classLoader = require($this_dir . '/app/lib/vendor/autoload.php');
@@ -173,3 +176,16 @@ fn_init_stack(
 
 // Run INIT
 fn_init($_REQUEST);
+
+
+//Test time of process
+//function rutime($ru, $rus, $index) {
+//    return ($ru["ru_$index.tv_sec"]*1000 + intval($ru["ru_$index.tv_usec"]/1000))
+//        -  ($rus["ru_$index.tv_sec"]*1000 + intval($rus["ru_$index.tv_usec"]/1000));
+//}
+//$ru = getrusage();
+//
+//fn_print_r("This process used " . rutime($ru, $rustart, "utime") .
+//    " ms for its computations\n");
+//fn_print_r("It spent " . rutime($ru, $rustart, "stime") .
+//    " ms in system calls\n");

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-01-17 10:54:00
+<?php /* Smarty version Smarty-3.1.21, created on 2022-01-21 11:41:11
          compiled from "C:\OpenServer\domains\cscart\design\backend\templates\views\orders\details.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:30376483461e52098caf144-45661106%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'da227380e6b72df81b9001f0c36b33001344f60e' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\backend\\templates\\views\\orders\\details.tpl',
-      1 => 1616559142,
+      1 => 1642754468,
       2 => 'tygh',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21',
+  'unifunc' => 'content_61e52098ea5ef4_51349568',
   'variables' => 
   array (
     'order_info' => 0,
@@ -55,8 +57,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'notify_vendor_status' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_61e52098ea5ef4_51349568',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_61e52098ea5ef4_51349568')) {function content_61e52098ea5ef4_51349568($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_modifier_count')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\modifier.count.php';
@@ -125,6 +125,7 @@ if (!empty($_capture_buffer)) {
 <input type="hidden" name="result_ids" value="content_general" />
 <input type="hidden" name="selected_section" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['selected_section']->value, ENT_QUOTES, 'UTF-8');?>
 " />
+
 
 <div class="<?php if ($_smarty_tpl->tpl_vars['selected_section']->value!=="general") {?>hidden<?php }?>" id="content_general">
     <div class="row-fluid">

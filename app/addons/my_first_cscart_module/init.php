@@ -16,6 +16,7 @@ if (!defined("BOOTSTRAP")) { die("Access denied"); }
 
 fn_register_hooks(
     "get_users",
-    "get_products"
-//    "global_update_products"
+    "get_products",
+//    "global_update_products",
+    "get_order_info"
 );
