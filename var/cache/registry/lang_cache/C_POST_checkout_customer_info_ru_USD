@@ -1,0 +1,1 @@
+a:2:{s:4:"data";a:1:{s:2:"ru";a:4:{s:11:"all_vendors";s:23:"Все продавцы";s:33:"stripe_connect.account_link_error";s:105:"У продавца с company ID [company_id] не привязана учётная запись Stripe";s:40:"hybrid_auth.facebook_oauth_redirect_uris";s:25:"Valid OAuth redirect URIs";s:5:"email";s:6:"E-mail";}}s:6:"expiry";i:0;}

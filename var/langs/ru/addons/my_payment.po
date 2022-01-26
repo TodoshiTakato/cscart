@@ -1,0 +1,96 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.9.3/addons/click_uz.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2019-01-29 13:01\n"
+
+msgctxt "Addons::name::my_payment"
+msgid "my_payment"
+msgstr "_Платежная система my_payment"
+
+msgctxt "Addons::description::my_payment"
+msgid "Description for my_payment"
+msgstr "Описание модуля my_payment"
+
+msgctxt "Languages::text_my_payment_callback_url"
+msgid "text_my_payment_callback_url_ru"
+msgstr "Важно! Необходимо указать URL-адрес <b>[prepare_url]</b> в качестве адреса "
+       "проверки и <b>[complete_url]</b> в качестве адреса завершения в кабинете "
+       "поставщика (https://merchant.click.uz)."
+
+msgctxt "Languages::addons.my_payment.merchant_id"
+msgid "my_payment Merchant ID"
+msgstr "ID Поставщика"
+
+msgctxt "Languages::addons.my_payment.merchant_user_id"
+msgid "my_payment Merchant User ID"
+msgstr "ID Пользователя Поставщика"
+
+msgctxt "Languages::addons.my_payment.service_id"
+msgid "my_payment Merchant Service ID"
+msgstr "ID сервиса поставщика"
+
+msgctxt "Languages::addons.my_payment.secret_key"
+msgid "my_payment Secret Key"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::addons.my_payment.paid_status"
+msgid "my_payment Status of order after payment"
+msgstr "Статус ордера после оплаты"
+
+msgctxt "Languages::addons.my_payment.error_in_request"
+msgid "my_payment Error in request from click"
+msgstr "Ошибка в запросе от CLICK"
+
+msgctxt "Languages::addons.my_payment.error_sign_check"
+msgid "my_payment Sign check error"
+msgstr "Ошибка проверки подписи"
+
+msgctxt "Languages::addons.my_payment.error_user_not_exist"
+msgid "my_payment User does not exist"
+msgstr "Пользователь или заказ не существует"
+
+msgctxt "Languages::addons.my_payment.error_already_paid"
+msgid "my_payment Already paid"
+msgstr "Уже оплачено"
+
+msgctxt "Languages::addons.my_payment.error_amount"
+msgid "my_payment Order total incorrect"
+msgstr "Сумма не совподает"
+
+msgctxt "Languages::addons.my_payment.success"
+msgid "my_payment Success"
+msgstr "Успешно"
+
+msgctxt "Languages::addons.my_payment.error_update_failed"
+msgid "my_payment Failed to update user"
+msgstr "Ошибка при обновлении пользователя или заказа"
+
+msgctxt "Languages::addons.my_payment.error_transaction_not_exist"
+msgid "my_payment Transaction does not exist"
+msgstr "Транзакция не существует"
+
+msgctxt "Languages::addons.my_payment.error_transaction_cancelled"
+msgid "my_payment Transaction cancelled"
+msgstr "Транзакция отменена"
+
+msgctxt "Languages::addons.my_payment.click_trans_id"
+msgid "my_payment Transaction ID"
+msgstr "ИД Транзакции"
+
+msgctxt "Languages::addons.my_payment.click_paydoc_id"
+msgid "my_payment Payment number"
+msgstr "Номер платежа"
+
+msgctxt "Languages::addons.my_payment.payment_receiving_time"
+msgid "my_payment Payment receiving time"
+msgstr "Время платежа"
+

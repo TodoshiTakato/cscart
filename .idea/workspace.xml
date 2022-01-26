@@ -20,169 +20,324 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38885e39-5bb0-4d91-b202-a14fe32d6091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design/backend/mail/templates/addons/my_first_cscart_module/hooks/orders/items_list_row.override.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/0/1328221297-documentvi-gameart_landing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/0/1907188.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/0/2423577.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/0/2817655.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/0/url_uploaded_file_13286945074f3244ec33aed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/1/i_(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/1/i_(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/1/i_(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/150/150/detailed/1/i_(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/0/1328221297-documentvi-gameart_landing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/0/1907188.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/0/2423577.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/0/2817655.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/0/url_uploaded_file_13286945074f3244ec33aed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/1/i_(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/1/i_(2).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/1/i_(3).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/thumbnails/300/300/detailed/1/i_(4).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_orders_print_invoice_ru_USD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_vendor_rating_criteria" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_logos/cache_admin__1init_logos_1_1_Bright_theme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_admin57506b1a7216e344b7d5160443f05b4d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/registry/thooks_A_mail/cache_admin__1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/1619a23c5cc435f83b802d40bb00371c64b84bcd.tygh.manage.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/57350dbb3ebf546450b06a6500d2047cac00bd9f.tygh.sales_reports_search_form.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/de5ebc96243b7f571814337ea3d8ad4bfc697b79.tygh.view.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/de7f663323cbabff7f45ae497a749389aae14e1a.tygh.file_list.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/0fe79df507f22ee89b5f8606fca78d2b65e4177e.tygh.invoice_body.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/2a82e520b9da19fbc10559aca4595a199e7e71da.tygh.product_info.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/2eb368ac4040ca20fefb32ce176387dccede2a65.tygh.product_info.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/3b6f3541ac6818c81845d40dc01b802f5bd46897.tygh.extra_list.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/4eeb8d47dc29d5337343620d5582b4f3ed3ee1de.tygh.profiles_extra_fields.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/5486879118a87ad0f30d4faa1b92b77cb3f61ced.tygh.product_info.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/5659d0605f837c69aa83570446b3c359ef5ee223.tygh.price.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/73ed5563de2782628038ce561f50aa6276dc99ac.tygh.invoice.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/8099607fcc906b44f29ede21220b797d3554d62c.tygh.invoice.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/83ad3470768bf4df13d3bd9880a3813b8eb9e45a.tygh.product_info.pre.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/bb843dc7478a1465899eec062de925854a104a60.tygh.invoice.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/d020da0d1d8852cc67cc13a9bc1c27460e4f958d.tygh.totals.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/de8ddf1d2846393eec40d0a1f2cb32e2ddfd2fc8.tygh.print_invoice.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/df7a4328aba77db247bfa10d6124c399689bcf79.tygh.modifier.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/e342189d949fad7ffb3fb89142354d09984f7f51.tygh.items_list_row.override.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/efce4a8dc41ce03ce1a85a44e54f879d3e67783f.tygh.totals.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/41ce27e0e0b1133afd82fb51f5c938ad2697cd63.tygh.product_block_content.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/8087d7beef50c58866f4f149ad1317d4df73980d.tygh.product_block_content.post.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/979d3ca085df678b19c1c49acab3b2fe87f4d0dd.tygh.product_block_content.pre.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/b48467a08765b85a6af05d5675b86df379fdb2e4.tygh.product_block.override.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/b9743e559a2418fb8f0a578d2d467a97cd129d8a.tygh.products_without_options.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/daf6d45fa924c3d59950ab1f4a84b8a7ae710a02.tygh.products_list.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/twig/38/3896f2ed69f5e100501b0a560f1a0aa34edebd73ff9bc93f3a4b7b155e95bc2c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/twig/43/43ac2892e3a622a191d429470765175694696dc323c20bdb50bb4515bc50be64.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/twig/f1/f10a0fcdc051b092adf29e33015e906686eaaa41b45668d3a2d7d1d938984aa8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/var/cache/templates/twig/f6/f64afa5b641402ec8fdab13479bf8a0884f1506e398dcbbec6859ae27d8494e9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/click_uz/addon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/click_uz/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/click_uz/func.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/click_uz/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/click_uz/payments/click_uz.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/my_payment/addon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/my_payment/func.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/addons/my_payment/payments/my_payment_processor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/backend/templates/addons/click_uz/views/orders/components/payments/click_uz.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/backend/templates/addons/click_uz/views/payments/components/cc_processors/click_uz.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/backend/templates/addons/my_payment/views/orders/components/payments/click_uz.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/backend/templates/addons/my_payment/views/payments/components/cc_processors/my_payment_admin_template.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/themes/responsive/css/addons/my_payment/styles.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/themes/responsive/templates/addons/my_payment/hooks/index/styles.post.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/themes/responsive/templates/addons/my_payment/views/orders/components/payments/my_payment.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/100/100/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/100/100/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/120/detailed/0/1000202232_f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/120/detailed/0/1328221297-documentvi-gameart_landing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/120/detailed/0/1328221407-ridgeracer-gameart_landing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/120/detailed/0/2817406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/120/detailed/0/2832686.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/120/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/120/detailed/0/51g+lhvGGQL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/152/detailed/0/bbex_boxart_psvita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/120/80/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/220/146/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/220/146/detailed/0/452499_010_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/240/160/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/240/240/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/240/304/detailed/0/bbex_boxart_psvita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/250/250/detailed/0/P_50013287768924f3386bc5fe80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/250/250/detailed/0/b3k0951cYIyn1LDE_500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/250/250/detailed/0/nDMJWQLHhMN4fi8b_500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/250/250/detailed/0/uMhBLQB2lSbT9kBm_500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/250/250/detailed/0/vx8EzIhsyOV81i8h_500.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/280/280/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/280/356/detailed/0/bbex_boxart_psvita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/35/35/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/35/35/detailed/0/452499_010_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/40/40/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/40/40/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/40/40/detailed/0/bbex_boxart_psvita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/440/292/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/440/292/detailed/0/452499_010_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/50/40/detailed/0/NX200_F4_B_1024x768_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/50/50/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/50/50/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/50/50/feature_variant/1/200px-ASUS_Logo.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/560/560/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/560/712/detailed/0/bbex_boxart_psvita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/60/60/detailed/0/1000202232_f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/60/60/detailed/0/1328221297-documentvi-gameart_landing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/60/60/detailed/0/1328221407-ridgeracer-gameart_landing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/60/60/detailed/0/2817406.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/60/60/detailed/0/2832686.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/60/60/detailed/0/51g+lhvGGQL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/70/70/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/70/70/detailed/0/452499_010_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/80/80/detailed/0/2954384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/80/80/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/80/80/detailed/0/bbex_boxart_psvita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/905/600/detailed/0/452499_010_A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumbnails/905/600/detailed/0/452499_010_B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.4d971c5f8bafb8b107a33398f8b3f4e11643197255.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.8dabe5c0490b92ed9795fe972989befe1643197255.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/bright_theme/css/standalone.77c38f9942345fa30b7162e738ad2c371643197255.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/bright_theme/css/standalone.aadc2fd2b97d860932b1a2aa7814380c1643197255.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-3c27775bd396d0bd17b27f3bce707f051643197255.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-72233a08d83b1332a653620232f1d7c91643197255.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-92d099d2e814742efae4e6f134ed565f1643197255.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/html_purifier/HTML/4.13.0,05edbc32ed85428a76a3890908c1675f802259fb,1.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/theme_editor/standalone.aadc2fd2b97d860932b1a2aa7814380c1643197255.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/tmp/tmpDAB6.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/tmp/tmpDF99.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/tmp/tmpDFAA.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/tmp/tmpE3B2.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/misc/tmp/tmpE3C3.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/addons/cache_customer__1__0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/all_available_company_ids/cache_customer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/available_countries_hash/cache_customer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/checkout/C_GET_categories_view.0_2_1.ru.USD__1calculated_shipping_rates" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/checkout/C_GET_checkout_checkout.0_2_1.ru.USD__1calculated_shipping_rates" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/checkout/C_GET_checkout_place_order.0_2_1.ru.USD__1calculated_shipping_rates" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/checkout/C_POST_checkout_customer_info.0_2_1.ru.USD__1calculated_shipping_rates" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/checkout/C_POST_checkout_place_order.0_2_1.ru.USD__1calculated_shipping_rates" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_admindbg_1643197268_187077524261f133549f78b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_admindbg_1643197276_167153214061f1335cd986b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_admindbg_1643197422_150633755361f133ee6149b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_admindbg_1643198720_36915897561f13900903b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643197340_4395860461f1339c0c699" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643198729_72948034561f13909c0121" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199210_70100684361f13aea54f81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199223_42736867961f13af7a1c85" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199227_190977681761f13afb2508d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199232_57647176561f13b0090a08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199235_49489503261f13b0363d9b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199242_185256953961f13b0a65ce9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199244_123785349161f13b0cc4f47" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199246_133476289161f13b0e148c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199262_97920049961f13b1e1c1f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199264_117970465961f13b2027972" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199269_29669914561f13b25d1bf1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199272_124744345161f13b285c0dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199274_19490631461f13b2aef82f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199379_128955274161f13b935e747" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643199395_34963628461f13ba312146" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643202207_158754602561f1469f5ccb3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1643202212_147300173061f146a475db7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/init_cdn_settings/cache_customer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/init_language/cache_customer__1init_language_C" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/init_storage_settings/cache_admin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/init_storage_settings/cache_customer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_addons_manage_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_notifications_center_manage_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_payments_manage_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_payments_processor_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_payments_update_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_POST_payments_update_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_categories_view_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_checkout_cart_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_checkout_checkout_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_checkout_place_order_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_image_barcode_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_index_index_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_product_features_view_all_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_products_newest_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_products_quick_view_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_searchanise_async_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_POST_checkout_add__15_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_POST_checkout_customer_info_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_POST_checkout_place_order_ru_USD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/mobile_app_settings/cache_customer__1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_0543d3d541df38cc63fd0996555f20b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_1da3f7b9feda318611d939373d1070ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_3813ed362371a6b5a1b3751f292f9663" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_9ad11f231ea4b3cbf5a695e38e90f8d8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_c8fe4f6ae7d030832af26c5945039c4c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_cedd010ad5c8339d41c2a94aafa5aa48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_e7db28749bc0e2d06c3b280afe0455fd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/product_filters_filters/cache_customerproduct_filters_filters_f488bc72c5ff654207038611b255964d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_dynamic_objects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_call_requests_status_colors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_menu_menu_67d164f779581e6a57eec19a23bca36a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_menu_menu_ef721296f9a0d0d74a5407b5b5af7121" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_notifications_notifications_center" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_payments_categories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_storefronts_relations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_blocks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_dynamic_objects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_fillings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_frontend_editable_locations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_templates" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_gdpr_settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_hybrid_auth_providers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_last_view_frontend" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_mobile_app_app_settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_notifications_events" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_notifications_notifications_center" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_permissions_admin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_products_overridable_fields" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_promotions_schema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_security_csrf_validation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_security_secure_controllers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_static_data_schema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_storefronts_relations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_vendor_rating_criteria" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_vendors_containers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_vendors_dispatches" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_banners" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_blog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_breadcrumbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_call_request" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_cart_content" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_checkout" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_currencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_languages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_customer_address" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_customer_billing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_customer_information" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_customer_notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_customer_sign_in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_newsletters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_payment_methods" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_shipping_methods" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_lite_checkout_terms_and_conditions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_menu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_my_account" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_my_first_cscart_module_setting" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_our_brands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_product_filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_products" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_smarty_block" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_testimonials" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_vendors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/settings/cache_customer__1__0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/storefront_protocol/cache_customerstorefront_protocol1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/cache_customer__1storefront_settings_values___1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/cache_customer__1storefront_settings_values____" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/templateExistsViaSnapshot/cache_customer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_logos/cache_customer__1init_logos_0_1_Bright_theme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_logos/cache_customer__1init_logos_2_1_Bright_theme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_admin7fc9cd61512fcf08b3f1ef70644125c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_customer422baa281decf669fa60187af927f2fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_customer49d9e2e5d0fad97144a05f1be0f5ccba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_customer57506b1a7216e344b7d5160443f05b4d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/theme_dirs/cache_customer__1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/thooks_A_mail/cache_customer__1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/thooks_C/cache_customer__1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/thooks_C_mail/cache_customer__1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/unmanaged_addons/cache_admin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/registry/unmanaged_addons/cache_customer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/static/less/e0d4157e924fe610c640c82b9d6279af" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/017882dc80484519c71c1b08258f0aece0baba7c.tygh.manage.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/56e0a2248b7eb4e40d0a99dc2465869340dad997.tygh.my_payment_admin_template.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/6ba3fefbf74dc2936fcda7fd97f7c905a337e6e7.tygh.processor.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/9aaf00dcef27fe9fef6c322d4cb1d41a0395bea7.tygh.picker.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/b672d41e1f4326d0df79742092478e4859ae8681.tygh.manage.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/d125e51b20670fe8c176fbaa56e13e892f579bde.tygh.properties.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/d49f993bd1e68ac3c11e197e7adf3e9b8a057511.tygh.click_uz.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/d780ad8b8047555f3164237e6a66c008cf22d453.tygh.update.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/ef7763e0802a69ff2eee0e99c242ed6b24ac2f76.tygh.js.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/6413129af11ee37bcb90f5246b0eee20642b93e5.tygh.order_notification.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/991f1b85ad3bddcdb95930fc5274b8b5caa34715.tygh.order_notification_subj.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/c5ffdd9fc65983140b1d9ce31c330d30c578c414.tygh.letter_header.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/c9b40afb6b16b4e14d31ec96a129ce0c5e09f317.tygh.options_info.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/ef73ddab88527507b157a868809c96c6da8a0709.tygh.letter_footer.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/01eef5e385dc6c59b288770c7a2a9129e8b65ca3.tygh.payment_extra.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/05a3051323c47bdcb8914f8c575bb1004de92a8a.tygh.product_options.pre.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/0778cfefde1b66163b8eb18dffb1a99309a33812.tygh.empty.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/1285efc4483f93b8988d85a71c848e276d869a99.tygh.no_items.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/1714d309bc7f92b6bf7cc73b0181606a96cf5fb6.tygh.checkout_discount.pre.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/17efebef88d505ac67f43110f6671b1e2c7d06cf.tygh.payment_options.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/1f28c21ee4507f50a808ebf91735bc8f7a9c13a3.tygh.clear_cart.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/2f4b1931732b6894ed79d6dd7abd3cd040084b55.tygh.product_info.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/3aa04f40f618792f5679bc6ff0776222e7b6e9b5.tygh.checkout_body.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/45beabe36cf8b4017b3c0195663fda2a9de9964c.tygh.shipping_delay.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/4bb2177580487d322bad2abab9a36a0c3a6805fd.tygh.product_info.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/560b88956ea571d760897cc1d5848ef244438b28.tygh.cart_items.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/6adf12cd05d636cd4c64df8e0cee484e71bbf502.tygh.checkout_totals_info.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/7c5e36c6d02b80f7873a76df25f13afd0f73a5da.tygh.my_payment.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/8ace5290f8151fcf90b94439e23380bb6d20175b.tygh.product_info.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/8eb91f0a07e910b3d81d0ef94a1b21be443e53ca.tygh.newest.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/9ee739d563da11b8bb6e4f4890836c4e7835a753.tygh.styles.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/a165b0de022c2d37f1af0330c9ff6381168b0726.tygh.checkout_totals.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/ae12f18be0b39fffe1b6bea79e5b12f0a35c3af6.tygh.extra_list.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/ca37079ddfd7dd6138a531aa143b61962f9656d0.tygh.update_cart.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/caafa8e9de61f906b6531832427d2e8ebf04f81d.tygh.cc_outside.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/cb601bc3bb64bb8fb80a8f1072b8d81fb083492d.tygh.phone.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/cb89efd4b382015742d559c7358545795beb7573.tygh.mainbox_cart.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/d5089ad9ff80e54a8d2e40bbc34a4664f4a49b79.tygh.cart_content.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/da4a695b2199419bc5416c63a4f2ec527a7f4905.tygh.checkout_totals.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/ea761e6cf8d1151550c3b58f79e4c08432472f31.tygh.shipping_estimation.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/f283363ae9ed119c14ca8a13fc123812e29f9d7b.backend.templates_list.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/f38f52bec8bc89f15dd344c2c14af68bf57d5fb5.backend.templates_tab.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/04904c91ae0da2e10a79f4e64b75a6958ef66161.tygh.barcode.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/0b6a52f72dee0e134e55c893b6a9756d42747e16.tygh.product_info.pre.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/18c1c734e83d1814c587ce149e80accd2dc47334.tygh.letter_footer.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/4191a318b7ba891ccf11fb1fb29ab195aba57ede.tygh.extra_list.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/44d152a81ea36c83c9aa7a744a6ae6e200c7433f.tygh.letter_header.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/46cbe9dd9eac634dea6f7d93eb968c650fa694bc.tygh.invoice_body.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/4ab57d74e839f6dfb8824350c73f62c8ec2132dd.tygh.options_info.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/5ee0117140c32f06d0730a0d0aaeb616fa7b4676.tygh.modifier.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/67220f54c3faeda5c72c92e1eb3663d0d835ade5.tygh.price.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/7d3368819b4500ea3706addea3bc07b738d9c61a.tygh.totals.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/873bcec9ca676113db35306231dea32dd17f50de.tygh.totals.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/905fd5f93e7e5dedbcb169950ecdaa2052d9702a.tygh.product_info.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/9664372667e7c913dcef2b9d2a6b6f76e840219d.tygh.invoice.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/a6ae707258f0336f3886311eddbdc62d95675224.tygh.order_notification.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/a6b3537e67182f900e7fc06ba3b3a35950a3653a.tygh.order_notification_subj.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/bc077adb687d81addeb55929091516ffcd41b9f6.tygh.invoice.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/bd0577a2683730547be307d4c7e50d476c5e0a69.tygh.invoice.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/da8d59fbe81e056aa64325f6ba13dec8e69c0a03.tygh.profiles_extra_fields.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/cache/templates/bright_theme/mail/fb738bea9b889a6475e783a03effa17b5789f2f1.tygh.product_info.post.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/langs/en/addons/click_uz.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/langs/en/addons/my_payment.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/langs/ru/addons/click_uz.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/var/langs/ru/addons/my_payment.po" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tygh/Template/Document/Order/Type.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tygh/Template/Document/Order/Type.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tygh/Template/Document/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tygh/Template/Document/Repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tygh/Template/Renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tygh/Template/Renderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/addons/my_first_cscart_module/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/addons/my_first_cscart_module/addon.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/addons/my_first_cscart_module/func.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/addons/my_first_cscart_module/func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/addons/my_first_cscart_module/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/addons/my_first_cscart_module/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/backend/orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/backend/orders.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/functions/fn.cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/functions/fn.cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/backend/mail/templates/addons/my_first_cscart_module/hooks/orders/items_list_row.override.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/design/backend/mail/templates/addons/my_first_cscart_module/hooks/orders/items_list_row.override.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design/backend/mail/templates/orders/invoice.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/design/backend/mail/templates/orders/invoice.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/backend/templates/views/orders/details.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/design/backend/templates/views/orders/details.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.286bb9ebc44918e808093937dce9c17e1642673462.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/backend/css/standalone.4d971c5f8bafb8b107a33398f8b3f4e11642673462.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/design/themes/bright_theme/css/standalone.e89e6cf1fd1b9348eb56125dbe03281d1642673462.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-570603e386151534e9fad6e7d0a011e11642673462.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/assets/js/tygh/scripts-654bf58b1f753ebb1f123b3096b0088c1642673462.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/misc/theme_editor/standalone.e89e6cf1fd1b9348eb56125dbe03281d1642673462.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/addons/cache_customer__1__0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/all_available_company_ids/cache_admin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/all_available_company_ids/cache_customer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/assets_cache_key/time" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/available_countries_hash/cache_customer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/debugger/cache_admindbg_1642673462_191280199261e93536ae50b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1642673469_29994020661e9353da6dfd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1642673530_211544413961e9357a85912" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1642673557_120313480261e93595b2f22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1642673569_11118497561e935a1e4ae2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1642673592_143835523661e935b84b51c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/debugger/cache_customerdbg_1642673596_177266915361e935bc7147f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/init_cdn_settings/cache_customer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/init_language/cache_customer__1init_language_C" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/init_storage_settings/cache_admin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/init_storage_settings/cache_customer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_block_manager_manage_ru_USD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_notifications_center_manage_ru_USD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_vendor_plans_async_ru_USD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_categories_view_ru_USD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_index_index_ru_USD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/C_GET_searchanise_async_ru_USD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/mobile_app_settings/cache_customer__1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_blocks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_dynamic_objects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_frontend_editable_locations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_block_manager_templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_call_requests_status_colors" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_notifications_notifications_center" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_storefronts_relations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_vendors_containers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_blocks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_dynamic_objects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_fillings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_frontend_editable_locations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_block_manager_templates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_gdpr_settings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_hybrid_auth_providers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_last_view_frontend" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_mobile_app_app_settings" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_permissions_admin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_products_overridable_fields" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_security_csrf_validation" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_security_secure_controllers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_static_data_schema" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_storefronts_relations" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_vendor_rating_criteria" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_vendors_containers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_customerschema_vendors_dispatches" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_breadcrumbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_call_request" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_cart_content" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_currencies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_languages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_menu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_my_account" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_my_first_cscart_module_setting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_smarty_block" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_adminscheme_block_template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_banners" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_blog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_call_request" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_cart_content" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_currencies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_languages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_menu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_my_account" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_my_first_cscart_module_setting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_our_brands" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_products" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_smarty_block" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_template" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_testimonials" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/scheme_block/cache_customerscheme_block_vendors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/addons/cache_admin__1__0" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/addons/cache_admin__1__0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/lang_cache/A_GET_orders_print_invoice_ru_USD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_menu_menu" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_menu_menu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_menu_menu_d60db7761e42d70ec1613143a47bf600" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_menu_menu_d60db7761e42d70ec1613143a47bf600" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/schemas/cache_adminschema_vendor_rating_criteria" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/var/cache/registry/settings/cache_admin__1__0" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/registry/settings/cache_admin__1__0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/settings/cache_customer__1__0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/storefront_protocol/cache_customerstorefront_protocol1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/storefront_settings_values/cache_customer__1storefront_settings_values____" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/templateExistsViaSnapshot/cache_customer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/template_logos/cache_customer__1init_logos_0_1_Bright_theme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_admin7fc9cd61512fcf08b3f1ef70644125c8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_customer422baa281decf669fa60187af927f2fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/theme_dirs/cache_customer__1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/thooks_A/cache_admin__1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/thooks_C/cache_customer__1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/unmanaged_addons/cache_admin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/registry/unmanaged_addons/cache_customer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/cache/templates/backend/da227380e6b72df81b9001f0c36b33001344f60e.tygh.details.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/backend/da227380e6b72df81b9001f0c36b33001344f60e.tygh.details.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var/snapshots/4.12.2.sp2_active_multivendor.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/snapshots/4.12.2.sp2_active_multivendor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/template_logos/cache_admin__1init_logos_1_1_Bright_theme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/template_overrides/cache_admin57506b1a7216e344b7d5160443f05b4d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/registry/thooks_A_mail/cache_admin__1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/04ef6d55b3434080c2093f42561aaab2" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/04ef6d55b3434080c2093f42561aaab2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/056eee742b4c0d556e1b87e36cc43ee4" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/056eee742b4c0d556e1b87e36cc43ee4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/0633bc9d455e4102a342b8059dacc82e" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/0633bc9d455e4102a342b8059dacc82e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/13bc898fcb306ba4aea9642479e7b037" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/13bc898fcb306ba4aea9642479e7b037" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/213a81d0aef4ea88569759b9200790a6" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/213a81d0aef4ea88569759b9200790a6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/404f5fe42178595b032ac7847a0b8f73" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/404f5fe42178595b032ac7847a0b8f73" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/4d92950e1acaf932cccf70f877091adf" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/4d92950e1acaf932cccf70f877091adf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/58708cb4c895950bce487c8141bc5a23" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/58708cb4c895950bce487c8141bc5a23" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/62dd5bb1417a9aa8275ac50dca1f9f02" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/62dd5bb1417a9aa8275ac50dca1f9f02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/652db6ce1e88afe8199838ba29385a37" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/652db6ce1e88afe8199838ba29385a37" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/8323954498433e24fb3a6c5157e55639" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/8323954498433e24fb3a6c5157e55639" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/afb7290c9519ffd35642ef87a4131424" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/afb7290c9519ffd35642ef87a4131424" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/b4ea59951543b0670d871c0664be19d4" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/b4ea59951543b0670d871c0664be19d4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/d70a532b55025deb3a4e828ca1fe08f7" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/d70a532b55025deb3a4e828ca1fe08f7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/e825c3a71d14df67715704c3c327c401" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/e825c3a71d14df67715704c3c327c401" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/ee9991ec15b5509fafe794fb27bbff4f" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/ee9991ec15b5509fafe794fb27bbff4f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/static/less/f5fbf41ee0d840236ac6751bd6b646d1" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/static/less/f5fbf41ee0d840236ac6751bd6b646d1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/templates/backend/mail/8099607fcc906b44f29ede21220b797d3554d62c.tygh.invoice.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/8099607fcc906b44f29ede21220b797d3554d62c.tygh.invoice.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/cache/templates/backend/mail/e342189d949fad7ffb3fb89142354d09984f7f51.tygh.items_list_row.override.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/var/cache/templates/backend/mail/e342189d949fad7ffb3fb89142354d09984f7f51.tygh.items_list_row.override.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,18 +366,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../first-laravel-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/addons/my_payment" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\cscart\var\themes_repository\responsive\templates\addons" />
-      <recent name="C:\OpenServer\domains\cscart\app\addons\my_first_cscart_module\controllers\backend" />
-      <recent name="C:\OpenServer\domains\cscart\design\themes\responsive\templates\addons\my_first_cscart_module\blocks\product_templates" />
-      <recent name="C:\OpenServer\domains\cscart\design\backend\templates\addons\my_first_cscart_module\hooks\profiles" />
-      <recent name="C:\OpenServer\domains\cscart\design\backend\templates\addons\my_first_cscart_module" />
+      <recent name="C:\OpenServer\domains\cscart\app\addons\my_payment" />
+      <recent name="C:\OpenServer\domains\cscart\design\themes\responsive\templates\addons\my_first_cscart_module" />
+      <recent name="C:\OpenServer\domains\cscart\design\themes\responsive\css\addons" />
+      <recent name="C:\OpenServer\domains\cscart\var\langs\en\addons" />
+      <recent name="C:\OpenServer\domains\cscart\var\langs\ru\addons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\cscart\design\themes\responsive\templates\addons\my_payment" />
+      <recent name="C:\OpenServer\domains\cscart\design\themes\responsive\templates\addons" />
       <recent name="C:\OpenServer\domains\cscart\design\backend\mail\templates\addons\my_first_cscart_module\hooks" />
       <recent name="C:\OpenServer\domains\cscart\design\themes\responsive\templates\addons\my_first_cscart_module\blocks" />
     </key>
@@ -257,7 +414,21 @@
       <workItem from="1642687873143" duration="172000" />
       <workItem from="1642691915932" duration="73000" />
       <workItem from="1642747690849" duration="6925000" />
-      <workItem from="1642758320955" duration="12334000" />
+      <workItem from="1642758320955" duration="12393000" />
+      <workItem from="1642838436719" duration="6620000" />
+      <workItem from="1643003112025" duration="13488000" />
+      <workItem from="1643087654775" duration="1438000" />
+      <workItem from="1643176952912" duration="897000" />
+      <workItem from="1643178403301" duration="4098000" />
+      <workItem from="1643183476027" duration="2148000" />
+      <workItem from="1643186126493" duration="29000" />
+      <workItem from="1643186158783" duration="130000" />
+      <workItem from="1643186306862" duration="2079000" />
+      <workItem from="1643188784918" duration="464000" />
+      <workItem from="1643189887357" duration="7000" />
+      <workItem from="1643189906663" duration="492000" />
+      <workItem from="1643193793507" duration="7741000" />
+      <workItem from="1643202102038" duration="657000" />
     </task>
     <servers />
   </component>
@@ -284,33 +455,33 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="708" y="356" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1642574937591" />
-    <state x="740" y="309" key="FileChooserDialogImpl" timestamp="1642687563033">
+    <state x="740" y="309" key="FileChooserDialogImpl" timestamp="1643087903362">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="740" y="309" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1642687563033" />
-    <state x="794" y="478" key="NewPhpFileDialog" timestamp="1642577530595">
+    <state x="740" y="309" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1643087903362" />
+    <state x="794" y="478" key="NewPhpFileDialog" timestamp="1642840867281">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="794" y="478" key="NewPhpFileDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1642577530595" />
-    <state width="585" height="446" key="SwitcherDM" timestamp="1642672577164">
+    <state x="794" y="478" key="NewPhpFileDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1642840867281" />
+    <state width="585" height="446" key="SwitcherDM" timestamp="1643194445064">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="585" height="446" key="SwitcherDM/0.30.1920.1050@0.30.1920.1050" timestamp="1642672577164" />
+    <state width="585" height="446" key="SwitcherDM/0.30.1920.1050@0.30.1920.1050" timestamp="1643194445064" />
     <state x="391" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1642489569044">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="391" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1642489569044" />
-    <state x="528" y="130" width="1046" height="908" key="find.popup" timestamp="1642586286537">
+    <state x="528" y="130" width="1046" height="908" key="find.popup" timestamp="1643179421582">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="528" y="130" width="1046" height="908" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1642586286537" />
+    <state x="528" y="130" width="1046" height="908" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1643179421582" />
     <state x="601" y="281" width="700" height="530" key="recent.locations.popup" timestamp="1641807485360">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="601" y="281" width="700" height="530" key="recent.locations.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1641807485360" />
-    <state x="616" y="258" key="run.anything.popup" timestamp="1642507957685">
+    <state x="616" y="258" key="run.anything.popup" timestamp="1643179367273">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1642507957685" />
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1643179367273" />
   </component>
 </project>

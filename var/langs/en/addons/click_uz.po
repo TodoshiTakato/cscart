@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_EN\n"
+
+
+msgctxt "Addons::name::click_uz"
+msgid "Click Uzbekistan Payments"
+msgstr "Click Uzbekistan Payments"
+
+msgctxt "Languages::addons.click_uz.click_uz"
+msgid "CLICK Uzbekistan"
+msgstr "CLICK Uzbekistan"
+
+msgctxt "SettingsOptions::click_uz::merchant_id"
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+msgctxt "SettingsOptions::click_uz::merchant_user_id"
+msgid "Merchant User ID"
+msgstr "Merchant User ID"
+
+msgctxt "SettingsOptions::click_uz::service_id"
+msgid "Merchant Service ID"
+msgstr "Merchant Service ID"
+
+msgctxt "SettingsOptions::click_uz::secret_key"
+msgid "Secret Key"
+msgstr "Secret Key"
+
+msgctxt "SettingsOptions::click_uz::paid_status"
+msgid "Status of order after payment"
+msgstr "Status of order after payment"
+
+msgctxt "Languages::text_click_uz_callback_url"
+msgid "Important! You must specify URL <b>[prepare_url]</b> as the Prepare and <b>[complete_url]</b> as the Complete URL on the Merchant Cabinet (https://merchant.click.uz)."
+msgstr "Important! You must specify URL <b>[prepare_url]</b> as the Prepare and <b>[complete_url]</b> as the Complete URL on the Merchant Cabinet (https://merchant.click.uz)."
+
+msgctxt "Languages::addons.click_uz.merchant_id"
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+msgctxt "Languages::addons.click_uz.merchant_user_id"
+msgid "Merchant User ID"
+msgstr "Merchant User ID"
+
+msgctxt "Languages::addons.click_uz.service_id"
+msgid "Merchant Service ID"
+msgstr "Merchant Service ID"
+
+msgctxt "Languages::addons.click_uz.secret_key"
+msgid "Secret Key"
+msgstr "Secret Key"
+
+msgctxt "Languages::addons.click_uz.paid_status"
+msgid "Status of order after payment"
+msgstr "Status of order after payment"
+
+msgctxt "Languages::addons.click_uz.error_in_request"
+msgid "Error in request from click"
+msgstr "Error in request from click"
+
+msgctxt "Languages::addons.click_uz.error_sign_check"
+msgid "Sign check error"
+msgstr "Sign check error"
+
+msgctxt "Languages::addons.click_uz.error_user_not_exist"
+msgid "User does not exist"
+msgstr "User does not exist"
+
+msgctxt "Languages::addons.click_uz.error_already_paid"
+msgid "Already paid"
+msgstr "Already paid"
+
+msgctxt "Languages::addons.click_uz.error_amount"
+msgid "Order total incorrect"
+msgstr "Order total incorrect"
+
+msgctxt "Languages::addons.click_uz.success"
+msgid "Success"
+msgstr "Success"
+
+msgctxt "Languages::addons.click_uz.error_update_failed"
+msgid "Failed to update user"
+msgstr "Failed to update user"
+
+msgctxt "Languages::addons.click_uz.error_transaction_not_exist"
+msgid "Transaction does not exist"
+msgstr "Transaction does not exist"
+
+msgctxt "Languages::addons.click_uz.error_transaction_cancelled"
+msgid "Transaction cancelled"
+msgstr "Transaction cancelled"
+
+msgctxt "Languages::addons.click_uz.click_trans_id"
+msgid "Transaction ID"
+msgstr "Transaction ID"
+
+msgctxt "Languages::addons.click_uz.click_paydoc_id"
+msgid "Payment number"
+msgstr "Payment number"
+
+msgctxt "Languages::addons.click_uz.payment_receiving_time"
+msgid "Payment receiving time"
+msgstr "Payment receiving time"
+

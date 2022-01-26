@@ -43,20 +43,24 @@ function fn_my_first_cscart_module_get_products($params, &$fields, &$sortings, $
 function fn_my_first_cscart_module_get_order_info(&$order, $additional_data) {
 //    $order = "";
 //    $additional_data = "";
+    $mode = Registry::get("runtime.mode");
+//    fn_print_die($order);
+    foreach ($order["product_groups"][0]["products"] as $key => $value) {
+        $image = $order["product_groups"][0]["products"][$key]["main_pair"];
+        if ( (($mode == "print_invoice") && !isset($image)) || ($mode == "update_status") ) {
+            $downloads_exist = false;
+            foreach ($order['products'] as $k => $v) {
 
-    if ( (Registry::get("runtime.mode") == "print_invoice") && !isset($order["product_groups"][0]["products"][1061624811]["main_pair"]) ) {
-        $downloads_exist = false;
-        foreach ($order['products'] as $k => $v) {
+                if (!$downloads_exist && !empty($v['extra']['is_edp']) && $v['extra']['is_edp'] == 'Y') {
+                    $downloads_exist = true; // Цифровой товар!
+                }
 
-            if (!$downloads_exist && !empty($v['extra']['is_edp']) && $v['extra']['is_edp'] == 'Y') {
-                $downloads_exist = true; // Цифровой товар!
+                $order_info['products'][$k]['main_pair'] = fn_get_cart_product_icon(
+                    $v['product_id'], $order['products'][$k]
+                );
             }
-
-            $order_info['products'][$k]['main_pair'] = fn_get_cart_product_icon(
-                $v['product_id'], $order['products'][$k]
-            );
+    //        fn_print_r("Условие if сработало");
         }
-//        fn_print_r("Условие if сработало");
     }
 
 

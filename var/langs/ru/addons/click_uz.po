@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-ru\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.9.3/addons/click_uz.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2019-01-29 13:01\n"
+
+msgctxt "Addons::name::click_uz"
+msgid "Click Uzbekistan Payment"
+msgstr "Платежная система Click Uzbekistan"
+
+msgctxt "Languages::addons.click_uz.click_uz"
+msgid "CLICK Uzbekistan"
+msgstr "CLICK Uzbekistan"
+
+msgctxt "SettingsOptions::click_uz::merchant_id"
+msgid "Merchant ID"
+msgstr "ID Поставщика"
+
+msgctxt "SettingsOptions::click_uz::merchant_user_id"
+msgid "Merchant User ID"
+msgstr "ID Пользователя Поставщика"
+
+msgctxt "SettingsOptions::click_uz::service_id"
+msgid "Merchant Service ID"
+msgstr "ID сервиса поставщика"
+
+msgctxt "SettingsOptions::click_uz::secret_key"
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+msgctxt "SettingsOptions::click_uz::paid_status"
+msgid "Status of order after payment"
+msgstr "Статус ордера после оплаты"
+
+msgctxt "Languages::text_click_uz_callback_url"
+msgid "Important! You must specify URL <b>[prepare_url]</b> as the Prepare and <b>[complete_url]</b> as the Complete URL on the Merchant Cabinet (https://merchant.click.uz)."
+msgstr "Важно! Необходимо указать URL-адрес <b>[prepare_url]</b> в качестве адреса проверки и <b>[complete_url]</b> в качестве адреса завершения в кабинете поставщика (https://merchant.click.uz)."
+
+msgctxt "Languages::addons.click_uz.merchant_id"
+msgid "Merchant ID"
+msgstr "ID Поставщика"
+
+msgctxt "Languages::addons.click_uz.merchant_user_id"
+msgid "Merchant User ID"
+msgstr "ID Пользователя Поставщика"
+
+msgctxt "Languages::addons.click_uz.service_id"
+msgid "Merchant Service ID"
+msgstr "ID сервиса поставщика"
+
+msgctxt "Languages::addons.click_uz.secret_key"
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+msgctxt "Languages::addons.click_uz.paid_status"
+msgid "Status of order after payment"
+msgstr "Статус ордера после оплаты"
+
+msgctxt "Languages::addons.click_uz.error_in_request"
+msgid "Error in request from click"
+msgstr "Ошибка в запросе от CLICK"
+
+msgctxt "Languages::addons.click_uz.error_sign_check"
+msgid "Sign check error"
+msgstr "Ошибка проверки подписи"
+
+msgctxt "Languages::addons.click_uz.error_user_not_exist"
+msgid "User does not exist"
+msgstr "Пользователь или заказ не существует"
+
+msgctxt "Languages::addons.click_uz.error_already_paid"
+msgid "Already paid"
+msgstr "Уже оплачено"
+
+msgctxt "Languages::addons.click_uz.error_amount"
+msgid "Order total incorrect"
+msgstr "Сумма не совподает"
+
+msgctxt "Languages::addons.click_uz.success"
+msgid "Success"
+msgstr "Успешно"
+
+msgctxt "Languages::addons.click_uz.error_update_failed"
+msgid "Failed to update user"
+msgstr "Ошибка при обновлении пользователя или заказа"
+
+msgctxt "Languages::addons.click_uz.error_transaction_not_exist"
+msgid "Transaction does not exist"
+msgstr "Транзакция не существует"
+
+msgctxt "Languages::addons.click_uz.error_transaction_cancelled"
+msgid "Transaction cancelled"
+msgstr "Транзакция отменена"
+
+msgctxt "Languages::addons.click_uz.click_trans_id"
+msgid "Transaction ID"
+msgstr "ИД Транзакции"
+
+msgctxt "Languages::addons.click_uz.click_paydoc_id"
+msgid "Payment number"
+msgstr "Номер платежа"
+
+msgctxt "Languages::addons.click_uz.payment_receiving_time"
+msgid "Payment receiving time"
+msgstr "Время платежа"
+

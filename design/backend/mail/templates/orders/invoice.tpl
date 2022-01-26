@@ -211,8 +211,8 @@
                 {/if}
                 <th style="background-color: #eeeeee; padding: 6px 10px; white-space: nowrap; font-size: 12px; font-family: Arial;">{__("subtotal")}</th>
             </tr>
-            {foreach from=$order_info.products item="oi"}
             {hook name="orders:items_list_row"}
+            {foreach from=$order_info.products item="oi"}
                 {if !$oi.extra.parent}
                 <tr>
                     <td style="padding: 5px 10px; background-color: #ffffff; font-size: 12px; font-family: Arial;">
@@ -234,8 +234,8 @@
                     <td style="padding: 5px 10px; background-color: #ffffff; text-align: right; white-space: nowrap; font-size: 12px; font-family: Arial;"><b>{if $oi.extra.exclude_from_calculate}{__("free")}{else}{include file="common/price.tpl" value=$oi.display_subtotal}{/if}</b>&nbsp;</td>
                 </tr>
                 {/if}
-            {/hook}
             {/foreach}
+            {/hook}
             {hook name="orders:extra_list"}
             {/hook}
             </table>

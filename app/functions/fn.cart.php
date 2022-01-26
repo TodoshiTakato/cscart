@@ -8627,7 +8627,7 @@ function fn_print_order_invoices($order_ids, $params = array())
             foreach ($data as $key => $value) {
                 $view->assign($key, $value);
             }
-//            fn_print_r($params);
+//            fn_print_r($key);
             $template = $params['html_wrap'] ? 'orders/print_invoice.tpl' : 'orders/invoice.tpl';
             $html[] = $view->displayMail(
                 $template, false, $params['area'], $order_info['company_id'], $params['lang_code']

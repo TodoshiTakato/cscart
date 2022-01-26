@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_EN\n"
+
+
+msgctxt "Addons::name::my_payment"
+msgid "my_payment"
+msgstr "_Payment system my_payment"
+
+msgctxt "Addons::description::my_payment"
+msgid "Description for my_payment"
+msgstr "Description for my_payment add-on"
+
+msgctxt "Languages::text_my_payment_callback_url"
+msgid "text_my_payment_callback_url_en"
+msgstr "Important! You must specify URL <b>[prepare_url]</b> as the Prepare and"
+       "<b>[complete_url]</b> as the Complete URL on the Merchant Cabinet (https://merchant.click.uz)."
+
+msgctxt "Languages::addons.my_payment.merchant_id"
+msgid "my_payment Merchant ID"
+msgstr "Merchant ID"
+
+msgctxt "Languages::addons.my_payment.merchant_user_id"
+msgid "my_payment Merchant User ID"
+msgstr "Merchant User ID"
+
+msgctxt "Languages::addons.my_payment.service_id"
+msgid "my_payment Merchant Service ID"
+msgstr "Merchant Service ID"
+
+msgctxt "Languages::addons.my_payment.secret_key"
+msgid "my_payment Secret Key"
+msgstr "Secret Key"
+
+msgctxt "Languages::addons.my_payment.paid_status"
+msgid "my_payment Status of order after payment"
+msgstr "Status of order after payment"
+
+msgctxt "Languages::addons.my_payment.error_in_request"
+msgid "my_payment Error in request from click"
+msgstr "Error in request from click"
+
+msgctxt "Languages::addons.my_payment.error_sign_check"
+msgid "my_payment Sign check error"
+msgstr "Sign check error"
+
+msgctxt "Languages::addons.my_payment.error_user_not_exist"
+msgid "my_payment User does not exist"
+msgstr "User does not exist"
+
+msgctxt "Languages::addons.my_payment.error_already_paid"
+msgid "my_payment Already paid"
+msgstr "Already paid"
+
+msgctxt "Languages::addons.my_payment.error_amount"
+msgid "my_payment Order total incorrect"
+msgstr "Order total incorrect"
+
+msgctxt "Languages::addons.my_payment.success"
+msgid "my_payment Success"
+msgstr "Success"
+
+msgctxt "Languages::addons.my_payment.error_update_failed"
+msgid "my_payment Failed to update user"
+msgstr "Failed to update user"
+
+msgctxt "Languages::addons.my_payment.error_transaction_not_exist"
+msgid "my_payment Transaction does not exist"
+msgstr "Transaction does not exist"
+
+msgctxt "Languages::addons.my_payment.error_transaction_cancelled"
+msgid "my_payment Transaction cancelled"
+msgstr "Transaction cancelled"
+
+msgctxt "Languages::addons.my_payment.click_trans_id"
+msgid "my_payment Transaction ID"
+msgstr "Transaction ID"
+
+msgctxt "Languages::addons.my_payment.click_paydoc_id"
+msgid "my_payment Payment number"
+msgstr "Payment number"
+
+msgctxt "Languages::addons.my_payment.payment_receiving_time"
+msgid "my_payment Payment receiving time"
+msgstr "Payment receiving time"
+

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-01-21 16:19:14
+<?php /* Smarty version Smarty-3.1.21, created on 2022-01-22 13:34:06
          compiled from "C:\OpenServer\domains\cscart\design\backend\mail\templates\orders\invoice.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:119368817761ea77cb0db9f3-36662445%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8099607fcc906b44f29ede21220b797d3554d62c' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\backend\\mail\\templates\\orders\\invoice.tpl',
-      1 => 1642763744,
+      1 => 1642840364,
       2 => 'tygh',
     ),
   ),
@@ -397,13 +397,13 @@ echo htmlspecialchars($_smarty_tpl->tpl_vars['order_info']->value['s_phone'], EN
                 <th style="background-color: #eeeeee; padding: 6px 10px; white-space: nowrap; font-size: 12px; font-family: Arial;"><?php echo $_smarty_tpl->__("subtotal");?>
 </th>
             </tr>
+            <?php $_smarty_tpl->smarty->_tag_stack[] = array('hook', array('name'=>"orders:items_list_row")); $_block_repeat=true; echo smarty_block_hook(array('name'=>"orders:items_list_row"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
+
             <?php  $_smarty_tpl->tpl_vars["oi"] = new Smarty_Variable; $_smarty_tpl->tpl_vars["oi"]->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['order_info']->value['products']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars["oi"]->key => $_smarty_tpl->tpl_vars["oi"]->value) {
 $_smarty_tpl->tpl_vars["oi"]->_loop = true;
 ?>
-            <?php $_smarty_tpl->smarty->_tag_stack[] = array('hook', array('name'=>"orders:items_list_row")); $_block_repeat=true; echo smarty_block_hook(array('name'=>"orders:items_list_row"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
-
                 <?php if (!$_smarty_tpl->tpl_vars['oi']->value['extra']['parent']) {?>
                 <tr>
                     <td style="padding: 5px 10px; background-color: #ffffff; font-size: 12px; font-family: Arial;">
@@ -444,9 +444,9 @@ echo $_smarty_tpl->getSubTemplate ("common/price.tpl", $_smarty_tpl->cache_id, $
 }?></b>&nbsp;</td>
                 </tr>
                 <?php }?>
+            <?php } ?>
             <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_block_hook(array('name'=>"orders:items_list_row"), $_block_content, $_smarty_tpl, $_block_repeat);  } array_pop($_smarty_tpl->smarty->_tag_stack);?>
 
-            <?php } ?>
             <?php $_smarty_tpl->smarty->_tag_stack[] = array('hook', array('name'=>"orders:extra_list")); $_block_repeat=true; echo smarty_block_hook(array('name'=>"orders:extra_list"), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 
             <?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_block_hook(array('name'=>"orders:extra_list"), $_block_content, $_smarty_tpl, $_block_repeat);  } array_pop($_smarty_tpl->smarty->_tag_stack);?>
