@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-01-26 16:10:58
+<?php /* Smarty version Smarty-3.1.21, created on 2022-01-27 13:01:07
          compiled from "C:\OpenServer\domains\cscart\design\themes\responsive\templates\addons\my_payment\views\orders\components\payments\my_payment.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:91437750061f10b069dd327-37964813%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7c5e36c6d02b80f7873a76df25f13afd0f73a5da' => 
     array (
       0 => 'C:\\OpenServer\\domains\\cscart\\design\\themes\\responsive\\templates\\addons\\my_payment\\views\\orders\\components\\payments\\my_payment.tpl',
-      1 => 1643194540,
+      1 => 1643270464,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_61f10b069de477_25479831')) {function content_61f10b069de477_25479831($_smarty_tpl) {?><?php if (!is_callable('smarty_function_set_id')) include 'C:/OpenServer/domains/cscart/app/functions/smarty_plugins\\function.set_id.php';
 ?><?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&(defined('AREA') ? constant('AREA') : null)=="C") {
-$_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start(); ?><div style="display: block">
+$_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start(); ?><div style="display: block; width: 100%;">
     <div>
         <h1>my_payment Animation</h1>
     </div>
@@ -51,7 +51,7 @@ if ($_smarty_tpl->tpl_vars['auth']->value['area']=="A") {?><span class="cm-templ
 echo Smarty::$_smarty_vars['capture']['template_content'];
 }
 }
-} else { ?><div style="display: block">
+} else { ?><div style="display: block; width: 100%;">
     <div>
         <h1>my_payment Animation</h1>
     </div>

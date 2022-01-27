@@ -1,0 +1,25 @@
+/* ==========================================================================
+my_payment
+========================================================================== */
+
+.my_payment_animation {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: relative;
+  animation-name: my_payment_anymation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  font-size: 40px;
+}
+
+@keyframes my_payment_anymation {
+  0%   {background-color:greenyellow; left: 0; top: 0;}
+  25%  {background-color:yellow; left: 43%; top: 0;}
+  50%  {background-color:greenyellow; left: 86%; top: 0;}
+  75%  {background-color:yellow; left: 43%; top: 0;}
+  100% {background-color:greenyellow; left: 0; top: 0;}
+}
+
+/* /my_payment */
