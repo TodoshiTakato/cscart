@@ -30,6 +30,7 @@ if (!empty($_REQUEST['payment'])) {
     define('PAYMENT_NOTIFICATION', true);
 
     $payment = fn_basename($_REQUEST['payment']);
+    fn_print_r("my_payment processor");
 
     if (fn_check_prosessor_status($payment)) {
         $payment_script = fn_get_processor_script_path($payment . '.php');
