@@ -7562,10 +7562,10 @@ function fn_check_processor_script($payment_id, $additional_params = false)
 function fn_check_prosessor_status($processor, $area = AREA)
 {
     $is_active = false;
-    fn_print_r($processor, $area);
+//    fn_print_r($processor, $area);
 
     $processor = fn_get_processor_data_by_name($processor . '.php');
-    fn_print_r($processor);
+//    fn_print_r($processor);
 
     if (!empty($processor)) {
         $payments = fn_get_payment_by_processor($processor['processor_id']);
